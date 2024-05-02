@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1,h3{
+    
+    background-color: rgb(22, 22, 45);
+    color: antiquewhite;
+    
+   
+}
+h2,h2,h2{
+    display: inline-block;
+    background-color: rgb(22, 22, 45);
+    color: rgb(245, 245, 195);
+    font-size: 40px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+p,pre,ul,li{
+    font-size: 30px;
+    color: antiquewhite;
+}
+body{
+    background-color: rgb(3, 72, 101);
+}
+.navbar{
+    
+    color: antiquewhite;
+   justify-content: space-between;
+    margin-left: 700px;
+    padding: 10px;
+    background-color: rgb(207, 238, 68);
+    
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+
+    
+  
+    font-size:x-large;
+}
+
+.img1{
+    margin-left: 500px;
+ 
+
+    
+}
+
+.Sabne{
+    margin-left: 300px;
+}
+.skills{
+    background-color: var(--second-bg-color);
+}
+.abc{
+    text-align: center;
+}
+.abc p{
+    
+    margin-bottom: 15px;
+}
+
+
+.skill-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 5rem;
+    background-color: rgb(92, 93, 93);
+    height: 500px;
+
+}
+
+p {
+    color: rgb(245, 239, 239);
+}
+
+.box{
+    margin-left: 20px;
+    background-color:rgb(241, 116, 116);
+    height: 400px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+h3 {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 50px;
+    border-radius: 10px;
+ 
+}
+.list{
+    color: black;
+    font-size: 20px;
+}
+
+.Contact {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.con{
+    margin-left: 610px;
+    display: inline-block;background-color: black;
+    color: azure;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+.Home :hover{
+    color: red;
+}
+.About :hover{
+    color: red;
+}
+.Skills :hover{
+    color: red;
+}
+.Contact :hover{
+    color: red;
+}
+.AboutMe{
+    background-color: rgb(144, 82, 54);
+}
+
+
+
+
+
+
